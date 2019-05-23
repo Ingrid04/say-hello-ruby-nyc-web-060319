@@ -1,9 +1,7 @@
-name = "Ingrid"
 def say_hello (name) # Build your say_hello method here
   puts "Hello, #{name}"
 end
 
-name = "Ruby Programmer"
-def say_hello ("Ruby Programmer")
-  puts "Hello, #{name}"
+def say_hello (noName)
+  puts "Hello, #{noName}"
 end
