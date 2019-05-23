@@ -1,4 +1,5 @@
-def say_hello ("Ingrid") # Build your say_hello method here
+name = "Ingrid"
+def say_hello (name) # Build your say_hello method here
   puts "Hello, #{name}"
 end
 
