@@ -1,9 +1,9 @@
-def say_hello (name) # Build your say_hello method here
+def say_hello ("Ingrid") # Build your say_hello method here
   puts "Hello, #{name}!"
 end
 say_hello
 
-def say_hello (noName)
+def say_hello ("Ruby Programmer")
   puts "Hello, #{noName}!"
 end
 say_hello
