@@ -1,8 +1,9 @@
 def say_hello (name = "Ingrid") # Build your say_hello method here
-  puts "Hello, #{name}!"
+  puts "Hello, # {name}!"
 end
-
+say_hello
 
 def say_hello (noName = "Ruby Programmer")
-  puts "Hello, #{noName}!"
+  puts "Hello, # {noName}!"
 end
+say_hello
