@@ -1,12 +1,10 @@
-name= Ingrid
-def say_hello (name) # Build your say_hello method here
+def say_hello (name = "Ingrid") # Build your say_hello method here
   puts "Hello, #{name}!"
 end
 say_hello
 
-noName= Ruby Programmer
 
-def say_hello (noName)
+def say_hello (noName= "Ruby Programmer")
   puts "Hello, #{noName}!"
 end
 say_hello
